@@ -33,7 +33,7 @@ concern for themselves, or concern for the environment (plants and/or animals)?
 
 # About: Practical
 
-The project consists of 4 main Phases(tasks), each task has its own ipynb file displaying all the modeling proceess of this task.
+The project consists of 4 main Phases(tasks), each task has its own ipynb and html file displaying all the modeling proceess of this task.
 
 # Task 1: Extracting the raw Reddit Posts text Data by querying with praw from relevant subreddits
 (e.g. https://www.reddit.com/r/minimalism/ and https://www.reddit.com/r/vegan/)
