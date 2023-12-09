@@ -36,15 +36,15 @@ concern for themselves, or concern for the environment (plants and/or animals)?
 The project consists of 4 main Phases(tasks), each task has its own ipynb and html file displaying all the modeling proceess of this task.
 
 # Task 1: Extracting the raw Reddit Posts text Data by querying with praw from relevant subreddits
-(e.g. https://www.reddit.com/r/minimalism/ and https://www.reddit.com/r/vegan/)
-and finaly choosing two relevant datasets for each group (minimalism\veganism)
-and deployed a first small-batch of them to MTurk workers asking them to read the Posts of each datasets and rate to what scale 
+I extracted the text data of the Reddit posts from various Subreddits (e.g. https://www.reddit.com/r/minimalism/ and https://www.reddit.com/r/vegan/)
+and finaly I chose two relevant datasets for each group (minimalism\veganism)
+and deployed a first small-batch of them to Amazon MTurk workers asking them to read the Posts of each datasets and rate to what scale 
 do they think the post tends to be biospheric\egocentric(more about how its measurd in the ipynb files)
 * we used MTurk's ratings for deciding on the post's label: 2 for Biospheric ,1 for Egocentric and 0 for undecided
   (which was later converted to binary - 1 for Bio, 0 for Ego).
-  So we actually used MTurk's ratings as our labeling and thus formed our supervised data:
+  So we actually used MTurk's ratings as our labeling and by that we formed our supervised data:
   
-1. searched for relevant questions
+1. searched for relevant questions to ask the MTurk workers
 
 2. Built a new MTurk project and designed the survey’s format
 
@@ -55,19 +55,20 @@ do they think the post tends to be biospheric\egocentric(more about how its meas
 
 4. Created a big set of questions and chose the most
    unbiased and straightforward questions
-5. We finally deployed our chosen datasets for each of the groups: minimalism/veganism with the set of questions, in which we
-   let MTurk workers label the datasets(posts) wether they think they tend to a vegan or minimalist person
+   
+6. We finally deployed our chosen datasets for each of the groups: minimalism/veganism with the set of questions, in which we
+   let MTurk workers label the datasets(posts) wether they think they tend to a vegan or minimalist person by reading 5 behvioral questions and rating them from (1 to 5)
  
      
-# Task 2(batch_analysis): Retrieved labled data from MTurk workers, analyzed the batch and the labeling
+# Task 2(batch_analysis):
+Retrieved labled data from MTurk workers, analyzed the batch and the labeling
 by different statistical and judges-agreemant rate approaches,
 and finally, after some adjustments for questions that we found less relevant,
 we sent the bigger batch for MTurk with updated questions list.
 hence the part b of task2: Big Batch Analysis.
 
 # Task 3(Big_btch_Analysis): here I conduct a thorough analysis of the recieved labled data:
-Batch statistical analysis, Labeling (by deciding on a labeling method for the posts based on the scores of the answers from MTurk),
-Sentiment Analysis, Text Analysis and Statistical Tests on the labeling results and more.. (found on 3-Big_batch_analysis_mixed(task3).ipynb)
+On the Batch I performed: statistical analysis, Labeling (by deciding on a labeling method for the posts based on the scores of the answers from MTurk), Sentiment Analysis, Text Analysis and Statistical Tests on the labeling results and more.. (found on 3-Big_batch_analysis_mixed(task3).ipynb)
 
 # Task 4-A (4-extracing_unlabled_data(task4).ipynb) : extracting unlabled data - time to dive into the world of the unknown:
  extracted a big batch of posts for each of the groups (veganism and minimalism)
@@ -77,7 +78,7 @@ transfered labled batch to binary labeling and officialy split the labled data
 into 2 datasets for further modeling: minimalism data and veganism data,
 which will be split to train\test data sets for training our models.
 
-# so the main steps(which are easily shown in (5-modeling(task4).ipynb) are:
+# the main steps(which are easily shown in (5-modeling(task4).ipynb) are:
 1. Feature Creation: top 90%+ common words of each dataset and compound score achieved from previous sentiment Analysis.
 2. Feature Selection: performed Filter Method, Wrapper Method, Embedded Method on the feature list from previous step,
    selected features size of: 4 - 4 features seemed reasonable given the fact that our datasets are not that big.
