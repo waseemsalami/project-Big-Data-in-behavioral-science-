@@ -72,10 +72,12 @@ Sentiment Analysis, Text Analysis and Statistical Tests on the labeling results 
 # Task 4-A (4-extracing_unlabled_data(task4).ipynb) : extracting unlabled data - time to dive into the world of the unknown:
  extracted a big batch of posts for each of the groups (veganism and minimalism)
 
-# Task 4-B (5-modeling(task4).ipynb) : Modeling - transfered labled batch to binary labeling and officialy split the labled data
+# Task 4-B (5-modeling(task4).ipynb) : Modeling 
+transfered labled batch to binary labeling and officialy split the labled data
 into 2 datasets for further modeling: minimalism data and veganism data,
 which will be split to train\test data sets for training our models.
-so the main steps(which are easily shown in (5-modeling(task4).ipynb) are:
+
+# so the main steps(which are easily shown in (5-modeling(task4).ipynb) are:
 1. Feature Creation: top 90%+ common words of each dataset and compound score achieved from previous sentiment Analysis.
 2. Feature Selection: performed Filter Method, Wrapper Method, Embedded Method on the feature list from previous step,
    selected features size of: 4 - 4 features seemed reasonable given the fact that our datasets are not that big.
