@@ -22,10 +22,10 @@ also constitutes pro-environmental behavior.
 Research focusing on pro-environmental and pro-social behavior,
 categorizes the motives of individuals for these actions into four categories (Snelgar, 2006):
 
-    1. Altruism
-    2. Biophilia - Animals
-    3. Biophilia - Plants
-    4. Egocentrism
+1. Altruism
+2. Biophilia - Animals
+3. Biophilia - Plants
+4. Egocentrism
     
 In this Project we want to examine what motivates people to choose a vegan diet or minimize their consumption as much as possible.
 Do most people choose this lifestyle out of concern for others,
@@ -44,19 +44,19 @@ do they think the post tends to be biospheric\egocentric(more about how its meas
   (which was later converted to binary - 1 for Bio, 0 for Ego).
   So we actually used MTurk's ratings as our labeling and thus formed our supervised data:
   
-1.     searched for relevant questions
+1. searched for relevant questions
 
-2.	     Built a new MTurk project and designed the survey’s format
+2. Built a new MTurk project and designed the survey’s format
 
-3.		   Found a problem in our project plan – we first chose
-                      to build 4 models for each label , (and fixed it) but then    
-                       we found a way to generalize the way we model and by
-                       that we got from 4 models into 2 models
+3. Found a problem in our project plan – we first chose
+   to build 4 models for each label , (and fixed it) but then    
+   we found a way to generalize the way we model and by
+   that we got from 4 models into 2 models
 
-4.			   Created a big set of questions and chose the most
-                               unbiased and straightforward questions
-5.       We finally deployed our chosen datasets for each of the groups: minimalism/veganism with the set of questions, in which we
-          let MTurk workers label the datasets(posts) wether they think they tend to a vegan or minimalist person
+4. Created a big set of questions and chose the most
+   unbiased and straightforward questions
+5. We finally deployed our chosen datasets for each of the groups: minimalism/veganism with the set of questions, in which we
+   let MTurk workers label the datasets(posts) wether they think they tend to a vegan or minimalist person
  
      
 # Task 2(batch_analysis): Retrieved labled data from MTurk workers, analyzed the batch and the labeling
