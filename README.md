@@ -69,7 +69,7 @@ hence the part b of task2: Big Batch Analysis.
 Batch statistical analysis, Labeling (by deciding on a labeling method for the posts based on the scores of the answers from MTurk),
 Sentiment Analysis, Text Analysis and Statistical Tests on the labeling results and more.. (found on 3-Big_batch_analysis_mixed(task3).ipynb)
 
-# Task 4-A (4-extracing_unlabled_data(task4)) : extracting unlabled data - time to dive into the world of the unknown:
+# Task 4-A (4-extracing_unlabled_data(task4).ipynb) : extracting unlabled data - time to dive into the world of the unknown:
  extracted a big batch of posts for each of the groups (veganism and minimalism)
 
 # Task 4-B (5-modeling(task4).ipynb) : Modeling - transfered labled batch to binary labeling and officialy split the labled data
