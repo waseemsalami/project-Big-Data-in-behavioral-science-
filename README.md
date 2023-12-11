@@ -1,5 +1,7 @@
 # project-Big-Data-in-bevioral-science-
 
+* If you only intend to view the project you can download the HTML file and open it with any of your browser, otherwise, you can download the ipynb file and surf through the code in any ipynb lab like Jupyter Notebook *
+
 # About: intro
 A python data analyzing and modeling project done during a Big Data course I took at the Technion university as a Inf Sys Eng student,
 in which I teamed up as a data student with a psychology Masters Degree student, 
