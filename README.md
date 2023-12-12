@@ -1,4 +1,4 @@
-# project-Big-Data-in-bevioral-science-
+# project-Big-Data-in-behavioral-science-
 
 * If you only intend to view the project you can either view the ipynb file here (on github) or download the HTML file and open it with any of your browsers, otherwise, you can download the ipynb file and surf through the code in any ipynb lab like Jupyter Notebook.
 
