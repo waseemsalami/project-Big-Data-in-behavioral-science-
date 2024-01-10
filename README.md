@@ -41,7 +41,7 @@ The project consists of 4 main Phases(tasks), each task has its own ipynb and ht
 I extracted the text data of the Reddit posts from various Subreddits (e.g. https://www.reddit.com/r/minimalism/ and https://www.reddit.com/r/vegan/)
 and finaly I chose two relevant datasets for each group (minimalism\veganism)
 and deployed a first small-batch of them to Amazon MTurk workers asking them to read the Posts of each datasets and rate to what scale 
-do they think the post tends to be biospheric\egocentric(more about how its measurd in the ipynb files)
+do they think the post tends to be biospheric\egocentric(more about how its measured in the ipynb files)
 * we used MTurk's ratings for deciding on the post's label: 2 for Biospheric ,1 for Egocentric and 0 for undecided
   (which was later converted to binary - 1 for Bio, 0 for Ego).
   So we actually used MTurk's ratings as our labeling and by that we formed our supervised data:
@@ -69,7 +69,7 @@ and finally, after some adjustments for questions that we found less relevant,
 we sent the bigger batch for MTurk with updated questions list.
 hence the part b of task2: Big Batch Analysis.
 
-# Task 3(Big_btch_Analysis): here I conduct a thorough analysis of the recieved labled data:
+# Task 3(Big_batch_Analysis): here I conduct a thorough analysis of the recieved labled data:
 On the Batch I performed: statistical analysis, Labeling (by deciding on a labeling method for the posts based on the scores of the answers from MTurk), Sentiment Analysis, Text Analysis and Statistical Tests on the labeling results and more.. (found on 3-Big_batch_analysis_mixed(task3).ipynb)
 
 # Task 4-A (4-extracing_unlabled_data(task4).ipynb) : extracting unlabled data - time to dive into the world of the unknown:
