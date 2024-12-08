@@ -1,5 +1,51 @@
 # project-Big-Data-in-behavioral-science-
 
+# Big Data Analysis in Behavioral Science (Technion University)
+## Summary: 
+Collaborated with a psychology Master's student to analyze Reddit data, examining the motivations behind veganism and minimalism. The project involved data extraction, statistical and sentiment analysis, feature engineering, and predictive modeling using supervised machine learning techniques. Developed insights into biospheric and egocentric motives, employing advanced text and sentiment analysis methodologies.
+
+## Key Skills and Tools Highlighted:
+
+### Data Collection & Preprocessing:
+Extracted raw data using PRAW for Reddit.
+
+Filtered, cleaned, and labeled data using tools like pandas and Numpy.
+
+Crowdsourced Labeling:
+Designed and deployed surveys on Amazon MTurk to label behavioral data accurately.
+
+Text Processing:
+Tokenization, stemming, and stop-word removal using NLTK.
+Vectorization and feature extraction with TF-IDF from scikit-learn.
+
+Sentiment Analysis:
+Analyzed text sentiments with VADER for insights into user motivations.
+
+Feature Engineering and Selection:
+Applied filter, wrapper, and embedded methods (e.g., Lasso, RFE) for feature selection.
+Engineered features like compound sentiment scores and common word frequencies.
+
+Machine Learning Modeling:
+Developed models using Random Forest, Logistic Regression, and Decision Tree.
+Evaluated models with cross-validation methods like Leave-One-Out (LOO).
+
+Statistical Analysis:
+Performed hypothesis testing and agreement rate analysis for data validation.
+
+Visualization:
+Created detailed visual representations of data distributions and model results using matplotlib and seaborn.
+
+Data Handling & Deployment:
+Managed large datasets for labeled and unlabeled data.
+Predicted labels for unlabeled datasets using trained models.
+
+### Python Libraries Used:
+Data Manipulation & Analysis: *pandas*, *NumPy*
+Natural Language Processing: *NLTK*, *PRAW*, *TF-IDF*
+Machine Learning: *scikit-learn (RandomForestClassifier, LogisticRegression, DecisionTreeClassifier)*
+Statistical Tools: *scipy.stats*
+Visualization: *matplotlib, seaborn*
+
 * If you only intend to view the project you can either view the ipynb file here (on github) or download the HTML file and open it with any of your browsers, otherwise, you can download the ipynb file and surf through the code in any ipynb lab like Jupyter Notebook.
 
 # About: intro
