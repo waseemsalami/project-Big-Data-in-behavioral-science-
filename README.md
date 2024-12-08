@@ -7,19 +7,19 @@ Collaborated with a psychology Master's student to analyze Reddit data, examinin
 ## Key Skills and Tools Highlighted:
 
 ### Data Collection & Preprocessing:
-Extracted raw data using PRAW for Reddit.
+Extracted Reddit raw data using *Reddit's API: PRAW*.
 
 Filtered, cleaned, and labeled data using tools like pandas and Numpy.
 
 Crowdsourced Labeling:
-Designed and deployed surveys on Amazon MTurk to label behavioral data accurately.
+Designed and deployed surveys on *Amazon MTurk* to label behavioral data accurately.
 
 Text Processing:
-Tokenization, stemming, and stop-word removal using NLTK.
+Tokenization, stemming, and stop-word removal using *NLTK*.
 Vectorization and feature extraction with TF-IDF from scikit-learn.
 
 Sentiment Analysis:
-Analyzed text sentiments with VADER for insights into user motivations.
+Analyzed text sentiments with *VADER* for insights into user motivations.
 
 Feature Engineering and Selection:
 Applied filter, wrapper, and embedded methods (e.g., Lasso, RFE) for feature selection.
