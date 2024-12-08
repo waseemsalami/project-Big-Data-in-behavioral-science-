@@ -2,42 +2,49 @@
 
 # Big Data Analysis in Behavioral Science (Technion University)
 ## Summary: 
-Collaborated with a psychology Master's student to analyze Reddit data, examining the motivations behind veganism and minimalism. The project involved data extraction, statistical and sentiment analysis, feature engineering, and predictive modeling using supervised machine learning techniques. Developed insights into biospheric and egocentric motives, employing advanced text and sentiment analysis methodologies.
+Collaborated with a psychology Master's student to analyze Reddit data, examining the motivations behind veganism and minimalism. The project involved data extraction, statistical and sentiment analysis, feature engineering, and predictive modeling using supervised machine learning techniques. Conducted statistical tests, including *ANOVA* and reliability metrics (e.g., Cronbach's Alpha, Intraclass Correlation Coefficient), to validate data and models. Generated actionable insights into behavioral motivations through rigorous data preprocessing, visualization, and predictive modeling.
 
 ## Key Skills and Tools Highlighted:
 
-### Data Collection & Preprocessing:
-Extracted Reddit raw data using *Reddit's API: PRAW*.
+1. Data Collection & Preprocessing:
+* Extracted Reddit raw data using *Reddit's API: PRAW*.
 
-Filtered, cleaned, and labeled data using tools like pandas and Numpy.
+* Filtered, cleaned, and labeled data using tools like pandas and Numpy.
 
-Crowdsourced Labeling:
-Designed and deployed surveys on *Amazon MTurk* to label behavioral data accurately.
+2. Crowdsourced Labeling:
+* Designed and deployed surveys on *Amazon MTurk* to label behavioral data accurately.
+* Developed classification systems for biospheric and egocentric labels.
+  
+3. Text Processing:
+* Tokenization, stemming, and stop-word removal using *NLTK*.
+* Vectorization and feature extraction with TF-IDF from scikit-learn.
 
-Text Processing:
-Tokenization, stemming, and stop-word removal using *NLTK*.
-Vectorization and feature extraction with TF-IDF from scikit-learn.
+4. Sentiment Analysis:
+* Analyzed text sentiments with *VADER* for insights into user motivations.
 
-Sentiment Analysis:
-Analyzed text sentiments with *VADER* for insights into user motivations.
+5. Feature Engineering and Selection:
+* Selected features through filter, wrapper, and embedded methods (e.g., Lasso, RFE).
+* Engineered features like compound sentiment scores and common word frequencies.
 
-Feature Engineering and Selection:
-Applied filter, wrapper, and embedded methods (e.g., Lasso, RFE) for feature selection.
-Engineered features like compound sentiment scores and common word frequencies.
+6. Machine Learning Modeling:
+* Developed models using Random Forest, Logistic Regression, and Decision Tree.
+* Evaluated models with cross-validation methods like Leave-One-Out (LOO).
 
-Machine Learning Modeling:
-Developed models using Random Forest, Logistic Regression, and Decision Tree.
-Evaluated models with cross-validation methods like Leave-One-Out (LOO).
+7. Statistical Analysis:
+* Performed hypothesis testing and agreement rate analysis for data validation.
+* Implemented ANOVA tests to assess group differences.
+* Evaluated data reliability with Cronbach's Alpha and Intraclass Correlation Coefficient (Pingouin).
+  
+8. Visualization:
+* Created detailed visual representations of data distributions and model results using matplotlib and seaborn.
 
-Statistical Analysis:
-Performed hypothesis testing and agreement rate analysis for data validation.
+9. Data Handling & Deployment:
+* Managed large datasets for labeled and unlabeled data.
+* Predicted labels for unlabeled datasets using trained models.
 
-Visualization:
-Created detailed visual representations of data distributions and model results using matplotlib and seaborn.
-
-Data Handling & Deployment:
-Managed large datasets for labeled and unlabeled data.
-Predicted labels for unlabeled datasets using trained models.
+10. Automation and Workflow Integration:
+* Automated data cleaning, processing, and validation through Python scripting.
+* Combined multiple libraries for efficient workflows and analysis.
 
 ### Python Libraries Used:
 Data Manipulation & Analysis: *pandas*, *NumPy*
@@ -46,7 +53,7 @@ Natural Language Processing: *NLTK*, *PRAW*, *TF-IDF*
 
 Machine Learning: *scikit-learn (RandomForestClassifier, LogisticRegression, DecisionTreeClassifier)*
 
-Statistical Tools: *scipy.stats*
+Statistical Analysis: *Pingouin, statsmodels, scipy*
 
 Visualization: *matplotlib, seaborn*
 
